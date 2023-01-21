@@ -171,7 +171,7 @@ function App() {
                 rightCopyBtn ? "copy-icon-left-clicked" : ""
               }`}
               onClick={() => (
-                navigator.clipboard.writeText(inputVal), setRightCopyBtn(true)
+                navigator.clipboard.writeText(translatedText), setRightCopyBtn(true)
               )}
             />
           </Col>
@@ -186,7 +186,7 @@ function App() {
               Gayratjon Abdijobborov
             </a>
           </span>
-          <a href="https://gayratjon.uz/" target="_blank">
+          <a href="https://gayratjon2003.github.io/translator-unlimit/" target="_blank">
             Infinite translation website
           </a>
         </p>
